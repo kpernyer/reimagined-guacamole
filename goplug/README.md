@@ -1,6 +1,11 @@
 # Testing Plugin from golang 1.8
 
-## On local machine
+## Version Local
+```
+docker run -v "$PWD:/data" golang:1.8beta1-wheezy /data/compile.sh
+```
+
+## Local machine and bash into Docker
 ```
 % docker run -it golang:1.8beta1-wheezy bash
 ```
