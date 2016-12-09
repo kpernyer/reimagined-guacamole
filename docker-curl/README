@@ -1,0 +1,4 @@
+$ docker build -t yourname/curl .
+
+ docker run yourname/curl curl -s --http2 -I https://nghttp2.org
+
